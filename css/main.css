@@ -15,14 +15,14 @@ body {
 .movieFactory h1 {
   font-size: 4vw; }
 
-@media screen and (max-width: 576px) {
-  #headerone {
-    height: 11vw; }
+.back {
+  background-color: #1D2329; }
 
-  .movieFactory h1 {
-    font-size: 9vw; } }
 .main-container {
   margin-top: 12vw; }
+
+.artistImg {
+  width: 100%; }
 
 #footer {
   background-color: black;
@@ -30,5 +30,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 8vw; }
+
+@media screen and (max-width: 768px) {
+  #headerone {
+    height: 11vw; }
+
+  .movieFactory h1 {
+    font-size: 9vw; }
+
+  .border {
+    background-color: red; } }
 
 /*# sourceMappingURL=main.css.map */
