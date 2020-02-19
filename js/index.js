@@ -1,5 +1,5 @@
 
-
+// *******************************json convert part************************
 $(document).ready(function(){
 	for ( let i in movieData.movies) {
 		$('#movie-box').append(`
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
 }
 
-
+// *********************************** like button counter****************
 
 var button = document.getElementsByName("blabutton");
 
@@ -56,7 +56,7 @@ function likeIt(){
 
 });
 
-
+// ***************************sort function*******************************
 
 document.getElementById("sortButton").addEventListener("click",port);
 var output = document.getElementsByName("bo");
@@ -78,7 +78,7 @@ console.log(output);
 
 
 
-// file system checking part
+// ********************file system checking part******************************
 	if(typeof jQuery == "undefined"){
 	console.log("nicht installiert");
 }else{
