@@ -24,6 +24,15 @@ body {
 .artistImg {
   width: 100%; }
 
+.likecounter {
+  background-color: green;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem; }
+
+.button {
+  background-color: green; }
+
 #footer {
   background-color: black;
   display: flex;
